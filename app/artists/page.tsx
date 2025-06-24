@@ -9,7 +9,7 @@ import { MapPin, Star } from 'lucide-react';
 import { mockArtists } from '@/lib/mockData';
 
 export default function ArtistsPage() {
-  const [artists, setArtists] = useState(mockArtists);
+  const [artists] = useState(mockArtists);
   const [filteredArtists, setFilteredArtists] = useState(mockArtists);
   const [categoryFilter, setCategoryFilter] = useState('all');
   const [locationFilter, setLocationFilter] = useState('all');
